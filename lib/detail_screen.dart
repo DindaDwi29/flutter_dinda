@@ -51,7 +51,7 @@ class DetailScreen extends StatelessWidget {
               padding: EdgeInsets.all(16.0),
               child: Text(
                 place.description,
-                textAlign: TextAlign.center,
+                textAlign: TextAlign.left,
                 style: TextStyle(
                   fontSize: 16.0,
                 ),

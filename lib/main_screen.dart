@@ -15,7 +15,6 @@ class _MainScreenState extends State<MainScreen> {
   List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
     MenuScreen1(),
-    MenuScreen2(),
     ProfileScreen(),
   ];
   @override
@@ -35,10 +34,6 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.coffee_sharp),
             label: 'Minuman',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Profile',
           ),
         ],
         onTap: (index) => setState(() {

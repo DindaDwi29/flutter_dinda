@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(),
        home: SplashScreenView(
         navigateRoute: MainScreen(),
-        duration: 7000,
+        duration: 9000,
         imageSize: 150,
         imageSrc: "assets/images/logo.png",
         backgroundColor: Colors.white,
